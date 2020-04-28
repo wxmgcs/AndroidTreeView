@@ -13,6 +13,8 @@ import com.unnamed.b.atv.sample.R;
 import com.unnamed.b.atv.sample.fragment.CustomViewHolderFragment;
 import com.unnamed.b.atv.sample.fragment.FolderStructureFragment;
 import com.unnamed.b.atv.sample.fragment.SelectableTreeFragment;
+import com.unnamed.b.atv.sample.fragment.ShootFragment;
+import com.unnamed.b.atv.sample.fragment.ShootHistoryFragment;
 import com.unnamed.b.atv.sample.fragment.TwoDScrollingArrowExpandFragment;
 import com.unnamed.b.atv.sample.fragment.TwoDScrollingFragment;
 
@@ -36,6 +38,8 @@ public class MainActivity extends ActionBarActivity {
         listItems.put("Selectable Nodes", SelectableTreeFragment.class);
         listItems.put("2d scrolling", TwoDScrollingFragment.class);
         listItems.put("Expand with arrow only", TwoDScrollingArrowExpandFragment.class);
+        listItems.put("当前任务", ShootFragment.class);
+        listItems.put("历史任务", ShootHistoryFragment.class);
 
 
         final List<String> list = new ArrayList(listItems.keySet());
